@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C99E2E8E219C50F100833F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2E8D219C50F100833F36 /* AppDelegate.swift */; };
-		C99E2E98219C50F400833F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99E2E96219C50F400833F36 /* LaunchScreen.storyboard */; };
 		C99E2ECF219D7D5500833F36 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2EBC219D7D5500833F36 /* WebRTCClient.swift */; };
 		C99E2ED0219D7D5500833F36 /* RTCIceCandidate+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2EBD219D7D5500833F36 /* RTCIceCandidate+JSON.swift */; };
 		C99E2ED1219D7D5500833F36 /* RTCSessionDescription+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2EBE219D7D5500833F36 /* RTCSessionDescription+JSON.swift */; };
@@ -29,8 +27,6 @@
 
 /* Begin PBXFileReference section */
 		C99E2E8A219C50F100833F36 /* HippoCallClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HippoCallClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C99E2E8D219C50F100833F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C99E2E97219C50F400833F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C99E2E99219C50F400833F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99E2EBC219D7D5500833F36 /* WebRTCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
 		C99E2EBD219D7D5500833F36 /* RTCIceCandidate+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RTCIceCandidate+JSON.swift"; sourceTree = "<group>"; };
@@ -93,8 +89,6 @@
 				C99E2EC0219D7D5500833F36 /* Models */,
 				C99E2EBB219D7D5500833F36 /* WebRTCClient */,
 				C99E2ECC219D7D5500833F36 /* Wrappers */,
-				C99E2E8D219C50F100833F36 /* AppDelegate.swift */,
-				C99E2E96219C50F400833F36 /* LaunchScreen.storyboard */,
 				C99E2E99219C50F400833F36 /* Info.plist */,
 			);
 			path = HippoCallClient;
@@ -212,7 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D7D047219EECF20060D2A8 /* README.md in Resources */,
-				C99E2E98219C50F400833F36 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +262,6 @@
 				C99E2ED4219D7D5500833F36 /* CallClientCredential.swift in Sources */,
 				C99E2ED9219D7D5500833F36 /* Call.swift in Sources */,
 				C99E2ED5219D7D5500833F36 /* CallPeer.swift in Sources */,
-				C99E2E8E219C50F100833F36 /* AppDelegate.swift in Sources */,
 				C99E2ED3219D7D5500833F36 /* HippoUser.swift in Sources */,
 				C99E2ED8219D7D5500833F36 /* SignalingClient.swift in Sources */,
 				C99E2ED2219D7D5500833F36 /* FuguChannel+SignalingClient.swift in Sources */,
@@ -282,17 +274,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C99E2E96219C50F400833F36 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C99E2E97219C50F400833F36 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C99E2EB0219C50F400833F36 /* Debug */ = {
