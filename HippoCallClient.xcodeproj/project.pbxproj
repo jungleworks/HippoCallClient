@@ -28,6 +28,7 @@
 		C99E2EDB219D7D5500833F36 /* HippoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2ECB219D7D5500833F36 /* HippoHelper.swift */; };
 		C99E2EDC219D7D5500833F36 /* HippoCallClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2ECD219D7D5500833F36 /* HippoCallClientDelegate.swift */; };
 		C99E2EDD219D7D5500833F36 /* HippoCallClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2ECE219D7D5500833F36 /* HippoCallClient.swift */; };
+		C9D7D047219EECF20060D2A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C9D7D046219EECF20060D2A8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		C99E2ECB219D7D5500833F36 /* HippoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HippoHelper.swift; sourceTree = "<group>"; };
 		C99E2ECD219D7D5500833F36 /* HippoCallClientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HippoCallClientDelegate.swift; sourceTree = "<group>"; };
 		C99E2ECE219D7D5500833F36 /* HippoCallClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HippoCallClient.swift; sourceTree = "<group>"; };
+		C9D7D046219EECF20060D2A8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		C99E2E81219C50F100833F36 = {
 			isa = PBXGroup;
 			children = (
+				C9D7D046219EECF20060D2A8 /* README.md */,
 				C99E2E8C219C50F100833F36 /* HippoCallClient */,
 				C99E2EA1219C50F400833F36 /* HippoCallClientTests */,
 				C99E2EAC219C50F400833F36 /* HippoCallClientUITests */,
@@ -341,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D7D047219EECF20060D2A8 /* README.md in Resources */,
 				C99E2E98219C50F400833F36 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
