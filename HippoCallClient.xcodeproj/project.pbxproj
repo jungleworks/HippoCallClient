@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		174358FEAF6271FB40DA65C5 /* Pods_HippoCallClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FFFA3145C78A138342C57C /* Pods_HippoCallClientTests.framework */; };
-		83004BBB374497FE1D42469A /* Pods_HippoCallClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3545DF5B5AF860D8395D5479 /* Pods_HippoCallClient.framework */; };
 		C99E2E8E219C50F100833F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2E8D219C50F100833F36 /* AppDelegate.swift */; };
 		C99E2E98219C50F400833F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99E2E96219C50F400833F36 /* LaunchScreen.storyboard */; };
-		C99E2EA3219C50F400833F36 /* HippoCallClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2EA2219C50F400833F36 /* HippoCallClientTests.swift */; };
-		C99E2EAE219C50F400833F36 /* HippoCallClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2EAD219C50F400833F36 /* HippoCallClientUITests.swift */; };
 		C99E2ECF219D7D5500833F36 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2EBC219D7D5500833F36 /* WebRTCClient.swift */; };
 		C99E2ED0219D7D5500833F36 /* RTCIceCandidate+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2EBD219D7D5500833F36 /* RTCIceCandidate+JSON.swift */; };
 		C99E2ED1219D7D5500833F36 /* RTCSessionDescription+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E2EBE219D7D5500833F36 /* RTCSessionDescription+JSON.swift */; };
@@ -31,40 +27,11 @@
 		C9D7D047219EECF20060D2A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C9D7D046219EECF20060D2A8 /* README.md */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C99E2E9F219C50F400833F36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C99E2E82219C50F100833F36 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C99E2E89219C50F100833F36;
-			remoteInfo = HippoCallClient;
-		};
-		C99E2EAA219C50F400833F36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C99E2E82219C50F100833F36 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C99E2E89219C50F100833F36;
-			remoteInfo = HippoCallClient;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		32FFFA3145C78A138342C57C /* Pods_HippoCallClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HippoCallClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3545DF5B5AF860D8395D5479 /* Pods_HippoCallClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HippoCallClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		469457235FFE5D1D8026FC5C /* Pods-HippoCallClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippoCallClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HippoCallClientTests/Pods-HippoCallClientTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8E076730085AB150692A5AF7 /* Pods-HippoCallClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippoCallClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HippoCallClientTests/Pods-HippoCallClientTests.release.xcconfig"; sourceTree = "<group>"; };
-		B34C2687BE2C7E0E8D15F6CA /* Pods-HippoCallClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippoCallClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-HippoCallClient/Pods-HippoCallClient.release.xcconfig"; sourceTree = "<group>"; };
-		C00453409D9B935B2BB71EBA /* Pods-HippoCallClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippoCallClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HippoCallClient/Pods-HippoCallClient.debug.xcconfig"; sourceTree = "<group>"; };
 		C99E2E8A219C50F100833F36 /* HippoCallClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HippoCallClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99E2E8D219C50F100833F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C99E2E97219C50F400833F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C99E2E99219C50F400833F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C99E2E9E219C50F400833F36 /* HippoCallClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippoCallClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C99E2EA2219C50F400833F36 /* HippoCallClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoCallClientTests.swift; sourceTree = "<group>"; };
-		C99E2EA4219C50F400833F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C99E2EA9219C50F400833F36 /* HippoCallClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippoCallClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C99E2EAD219C50F400833F36 /* HippoCallClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoCallClientUITests.swift; sourceTree = "<group>"; };
-		C99E2EAF219C50F400833F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99E2EBC219D7D5500833F36 /* WebRTCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
 		C99E2EBD219D7D5500833F36 /* RTCIceCandidate+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RTCIceCandidate+JSON.swift"; sourceTree = "<group>"; };
 		C99E2EBE219D7D5500833F36 /* RTCSessionDescription+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RTCSessionDescription+JSON.swift"; sourceTree = "<group>"; };
@@ -88,22 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83004BBB374497FE1D42469A /* Pods_HippoCallClient.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C99E2E9B219C50F400833F36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				174358FEAF6271FB40DA65C5 /* Pods_HippoCallClientTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C99E2EA6219C50F400833F36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +64,6 @@
 		42F14C59FDD43769C56F6D75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3545DF5B5AF860D8395D5479 /* Pods_HippoCallClient.framework */,
-				32FFFA3145C78A138342C57C /* Pods_HippoCallClientTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,10 +73,7 @@
 			children = (
 				C9D7D046219EECF20060D2A8 /* README.md */,
 				C99E2E8C219C50F100833F36 /* HippoCallClient */,
-				C99E2EA1219C50F400833F36 /* HippoCallClientTests */,
-				C99E2EAC219C50F400833F36 /* HippoCallClientUITests */,
 				C99E2E8B219C50F100833F36 /* Products */,
-				F5F1585EB320BA6F0042D048 /* Pods */,
 				42F14C59FDD43769C56F6D75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -136,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				C99E2E8A219C50F100833F36 /* HippoCallClient.app */,
-				C99E2E9E219C50F400833F36 /* HippoCallClientTests.xctest */,
-				C99E2EA9219C50F400833F36 /* HippoCallClientUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,24 +98,6 @@
 				C99E2E99219C50F400833F36 /* Info.plist */,
 			);
 			path = HippoCallClient;
-			sourceTree = "<group>";
-		};
-		C99E2EA1219C50F400833F36 /* HippoCallClientTests */ = {
-			isa = PBXGroup;
-			children = (
-				C99E2EA2219C50F400833F36 /* HippoCallClientTests.swift */,
-				C99E2EA4219C50F400833F36 /* Info.plist */,
-			);
-			path = HippoCallClientTests;
-			sourceTree = "<group>";
-		};
-		C99E2EAC219C50F400833F36 /* HippoCallClientUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C99E2EAD219C50F400833F36 /* HippoCallClientUITests.swift */,
-				C99E2EAF219C50F400833F36 /* Info.plist */,
-			);
-			path = HippoCallClientUITests;
 			sourceTree = "<group>";
 		};
 		C99E2EBB219D7D5500833F36 /* WebRTCClient */ = {
@@ -225,17 +151,6 @@
 			path = Wrappers;
 			sourceTree = "<group>";
 		};
-		F5F1585EB320BA6F0042D048 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C00453409D9B935B2BB71EBA /* Pods-HippoCallClient.debug.xcconfig */,
-				B34C2687BE2C7E0E8D15F6CA /* Pods-HippoCallClient.release.xcconfig */,
-				469457235FFE5D1D8026FC5C /* Pods-HippoCallClientTests.debug.xcconfig */,
-				8E076730085AB150692A5AF7 /* Pods-HippoCallClientTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -258,44 +173,6 @@
 			productReference = C99E2E8A219C50F100833F36 /* HippoCallClient.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C99E2E9D219C50F400833F36 /* HippoCallClientTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C99E2EB5219C50F400833F36 /* Build configuration list for PBXNativeTarget "HippoCallClientTests" */;
-			buildPhases = (
-				2E712DF9A6727985DBB2D9F2 /* [CP] Check Pods Manifest.lock */,
-				C99E2E9A219C50F400833F36 /* Sources */,
-				C99E2E9B219C50F400833F36 /* Frameworks */,
-				C99E2E9C219C50F400833F36 /* Resources */,
-				50982CC4C8F1FEB420ED06D0 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C99E2EA0219C50F400833F36 /* PBXTargetDependency */,
-			);
-			name = HippoCallClientTests;
-			productName = HippoCallClientTests;
-			productReference = C99E2E9E219C50F400833F36 /* HippoCallClientTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C99E2EA8219C50F400833F36 /* HippoCallClientUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C99E2EB8219C50F400833F36 /* Build configuration list for PBXNativeTarget "HippoCallClientUITests" */;
-			buildPhases = (
-				C99E2EA5219C50F400833F36 /* Sources */,
-				C99E2EA6219C50F400833F36 /* Frameworks */,
-				C99E2EA7219C50F400833F36 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C99E2EAB219C50F400833F36 /* PBXTargetDependency */,
-			);
-			name = HippoCallClientUITests;
-			productName = HippoCallClientUITests;
-			productReference = C99E2EA9219C50F400833F36 /* HippoCallClientUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -308,14 +185,6 @@
 				TargetAttributes = {
 					C99E2E89219C50F100833F36 = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					C99E2E9D219C50F400833F36 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = C99E2E89219C50F100833F36;
-					};
-					C99E2EA8219C50F400833F36 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = C99E2E89219C50F100833F36;
 					};
 				};
 			};
@@ -333,8 +202,6 @@
 			projectRoot = "";
 			targets = (
 				C99E2E89219C50F100833F36 /* HippoCallClient */,
-				C99E2E9D219C50F400833F36 /* HippoCallClientTests */,
-				C99E2EA8219C50F400833F36 /* HippoCallClientUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -349,59 +216,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C99E2E9C219C50F400833F36 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C99E2EA7219C50F400833F36 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E712DF9A6727985DBB2D9F2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HippoCallClientTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		50982CC4C8F1FEB420ED06D0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HippoCallClientTests/Pods-HippoCallClientTests-frameworks.sh",
-				"${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HippoCallClientTests/Pods-HippoCallClientTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		58C44456203D276025EC1068 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,36 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C99E2E9A219C50F400833F36 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C99E2EA3219C50F400833F36 /* HippoCallClientTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C99E2EA5219C50F400833F36 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C99E2EAE219C50F400833F36 /* HippoCallClientUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C99E2EA0219C50F400833F36 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C99E2E89219C50F100833F36 /* HippoCallClient */;
-			targetProxy = C99E2E9F219C50F400833F36 /* PBXContainerItemProxy */;
-		};
-		C99E2EAB219C50F400833F36 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C99E2E89219C50F100833F36 /* HippoCallClient */;
-			targetProxy = C99E2EAA219C50F400833F36 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C99E2E96219C50F400833F36 /* LaunchScreen.storyboard */ = {
@@ -625,7 +413,6 @@
 		};
 		C99E2EB3219C50F400833F36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C00453409D9B935B2BB71EBA /* Pods-HippoCallClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -645,7 +432,6 @@
 		};
 		C99E2EB4219C50F400833F36 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B34C2687BE2C7E0E8D15F6CA /* Pods-HippoCallClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -660,86 +446,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C99E2EB6219C50F400833F36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 469457235FFE5D1D8026FC5C /* Pods-HippoCallClientTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HippoCallClientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.HippoCallClientTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HippoCallClient.app/HippoCallClient";
-			};
-			name = Debug;
-		};
-		C99E2EB7219C50F400833F36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E076730085AB150692A5AF7 /* Pods-HippoCallClientTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HippoCallClientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.HippoCallClientTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HippoCallClient.app/HippoCallClient";
-			};
-			name = Release;
-		};
-		C99E2EB9219C50F400833F36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HippoCallClientUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.HippoCallClientUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HippoCallClient;
-			};
-			name = Debug;
-		};
-		C99E2EBA219C50F400833F36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HippoCallClientUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.HippoCallClientUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HippoCallClient;
 			};
 			name = Release;
 		};
@@ -760,24 +466,6 @@
 			buildConfigurations = (
 				C99E2EB3219C50F400833F36 /* Debug */,
 				C99E2EB4219C50F400833F36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C99E2EB5219C50F400833F36 /* Build configuration list for PBXNativeTarget "HippoCallClientTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C99E2EB6219C50F400833F36 /* Debug */,
-				C99E2EB7219C50F400833F36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C99E2EB8219C50F400833F36 /* Build configuration list for PBXNativeTarget "HippoCallClientUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C99E2EB9219C50F400833F36 /* Debug */,
-				C99E2EBA219C50F400833F36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
