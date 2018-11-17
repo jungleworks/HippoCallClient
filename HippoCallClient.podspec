@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = 'HippoCallClient'
-s.version      = '0.0.1'
+s.version      = '0.0.2'
 s.summary      = 'Hippo Call Client'
 s.description  = 'Hippo Call Client to start video call and audio call'
 
@@ -24,7 +24,7 @@ s.static_framework = false
 #}
 
 s.preserve_paths = 'README.md'
-s.dependency 'GoogleWebRTC', '~> 1.1.24717'
+s.dependency 'GoogleWebRTC', '1.1.24717'
 
 s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'No' }
 
