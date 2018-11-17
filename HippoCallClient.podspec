@@ -10,10 +10,13 @@ s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
 s.author       = { 'Vishaljhanjhri' => 'vishal.jhanjhri@jungleworks.com' }
 
 s.ios.deployment_target = '9.0'
-s.source       = { :git => 'https://git.clicklabs.in/hippo-public/HippoCallClient.git', :tag => s.version }
+#s.source       = { :git => 'https://git.clicklabs.in/hippo-public/HippoCallClient.git', :tag => s.version }
+s.source       = { :git => 'https://git.clicklabs.in/hippo-public/HippoCallClient.git', :commit => "8902ad2601979c12ed5ba8301b56a68c454f3bf8" }
+
 
 s.source_files  = 'HippoCallClient/**/*.{h,m,swift}'
 s.exclude_files = 'Classes/Exclude'
+s.static_framework = false
 
 # s.public_header_files = 'Classes/**/*.h'
 
@@ -22,8 +25,10 @@ s.exclude_files = 'Classes/Exclude'
 #}
 
 s.preserve_paths = 'README.md'
+s.dependency 'GoogleWebRTC', '~> 1.1.24717'
+
 s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'No' }
 
-s.dependency 'GoogleWebRTC', '~> 1.1.24717'
+
 
 end
