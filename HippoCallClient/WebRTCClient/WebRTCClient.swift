@@ -85,7 +85,7 @@ class WebRTCClient: NSObject, RTCPeerConnectionDelegate {
             renderLocalVideoIn(view: localVideoView)
         }
         
-        RTCSetMinDebugLogLevel(.warning)
+        RTCSetMinDebugLogLevel(.error)
     }
     
     func getFilePath() -> String {

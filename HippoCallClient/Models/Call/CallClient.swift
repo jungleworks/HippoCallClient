@@ -181,8 +181,8 @@ class CallClient {
    // MARK: - Signal Handling
    private func takeActionOnSignalReceived(_ signal: CallSignal, forCall call: Call? = nil) {
       
-      print("\n \nSignal Received: \(signal.signalType.rawValue) => \(signal.getJsonToSend()) \n \n")
-      
+//      print("\n \nSignal Received: \(signal.signalType.rawValue) => \(signal.getJsonToSend()) \n \n")
+    
       switch signal.signalType {
       case .startCall: //push
          if call != nil {
@@ -613,7 +613,7 @@ extension CallClient: WebRTCClientDelegate {
                
             } else {
                self.credentialRetry = 0
-               print("\n \n Signal Sent: \(signal.signalType.rawValue) => \(signal.getJsonToSend()) \n \n")
+//               print("\n \n Signal Sent: \(signal.signalType.rawValue) => \(signal.getJsonToSend()) \n \n")
             }
          })
          
