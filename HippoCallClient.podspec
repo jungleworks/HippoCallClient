@@ -10,8 +10,7 @@ s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
 s.author       = { 'Vishaljhanjhri' => 'vishal.jhanjhri@jungleworks.com' }
 
 s.ios.deployment_target = '9.0'
-#s.source       = { :git => 'https://git.clicklabs.in/hippo-public/HippoCallClient.git', :tag => s.version }
-s.source       = { :git => 'https://git.clicklabs.in/hippo-public/HippoCallClient.git', :commit => "8902ad2601979c12ed5ba8301b56a68c454f3bf8" }
+s.source       = { :git => 'https://git.clicklabs.in/hippo-public/HippoCallClient.git', :tag => s.version}
 
 
 s.source_files  = 'HippoCallClient/**/*.{h,m,swift}'
