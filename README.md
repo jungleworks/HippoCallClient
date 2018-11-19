@@ -74,8 +74,10 @@ Call.init(peer: <CallPeer>, signalingClient: <SignalingClient>, uID: <String>, c
 
 ## Voip notification recieved
 
-
-
+When you recieve a voip notification Call the function 
+```
+HippoCallClient.shared.voipNotificationRecieved(dictionary: [AnyHashable: Any], peer: <CallPeer>, signalingClient: <SignalingClient>, currentUser: <CallPeer>)"
+```
 
 ## Give Feedback
 
