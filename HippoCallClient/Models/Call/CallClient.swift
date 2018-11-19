@@ -155,12 +155,32 @@ class CallClient {
             
             let signal = CallSignal(rtcSignal: [:], signalType: .startCall, callUID: call.uID, sender: call.currentUser, senderDeviceID: weakSelf.currentDeviceID, callType: call.type)
             self?.startTimerToExpireNotConnectedCallIn(signal: signal)
-            
-            let json = weakSelf.credentials.toJson()
-            self?.sendSignalWith(json: json, signalType: .startCall, call: call)
+            self?.startSendingStartCallUntilItExpires(signal: signal, call: call)
+//            let json = weakSelf.credentials.toJson()
+//            self?.sendSignalWith(json: json, signalType: .startCall, call: call)
         }
     }
-   
+    private func startSendingStartCallUntilItExpires(signal: CallSignal, call: Call) {
+        guard let call = activeCall, call.uID == signal.callUID, call.status != .inCall else {
+            return
+        }
+        
+        if call.timeElapsedSinceCallStart > maxTimeInNotConnectedState {
+            //            expireActiveCall()
+            return
+        }
+        let isSilent = call.timeElapsedSinceCallStart >= 1
+        let json = self.credentials.toJson()
+        self.sendSignalWith(json: json, signalType: .startCall, call: call, isSilent: !isSilent)
+        HippoDelay(2) {
+            self.startSendingStartCallUntilItExpires(signal: signal, call: call)
+        }
+    }
+    
+    func sendStartCallSignal(call: Call) {
+        let json = self.credentials.toJson()
+        self.sendSignalWith(json: json, signalType: .startCall, call: call)
+    }
     func hangupCall() {
         self.sendSignalWhenCallHungUp()
         self.callDisconnected()
@@ -589,8 +609,11 @@ extension CallClient: WebRTCClientDelegate {
       sendSignalWith(json: json, signalType: .newIceCandidate, call: activeCall!)
    }
    
-   func sendSignalWith(json: [String: Any], signalType: CallSignal.SignalType, call: Call) {
-      let signal = CallSignal(rtcSignal: json, signalType: signalType, callUID: call.uID, sender: call.currentUser, senderDeviceID: currentDeviceID, callType: call.type)
+   func sendSignalWith(json: [String: Any], signalType: CallSignal.SignalType, call: Call, isSilent: Bool = false) {
+      var signal = CallSignal(rtcSignal: json, signalType: signalType, callUID: call.uID, sender: call.currentUser, senderDeviceID: currentDeviceID, callType: call.type)
+    
+    //For Sending multiole start call sliently
+    signal.isForceSilent = isSilent
       
       call.signalingClient.connectClient(completion: { (success) in
          call.signalingClient.sendSignalToPeer(signal: signal, completion: { (success, error) in

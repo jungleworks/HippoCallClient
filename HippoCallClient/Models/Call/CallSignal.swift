@@ -23,6 +23,7 @@ public struct CallSignal {
    let sender: CallPeer
    let senderDeviceID: String
    let callType: Call.CallType
+   var isForceSilent: Bool = false
    
    init(rtcSignal: [String: Any], signalType: SignalType, callUID: String, sender: CallPeer, senderDeviceID: String, callType: Call.CallType) {
       self.rtcSignal = rtcSignal
@@ -119,6 +120,10 @@ extension CallSignal: Publishable {
         fayeDict["message"] = ""
         fayeDict["is_silent"] = signalType != .startCall
         fayeDict["call_type"] = callType.rawValue
+        
+        if isForceSilent {
+            fayeDict["is_silent"] = true
+        }
         
         return fayeDict
     }
