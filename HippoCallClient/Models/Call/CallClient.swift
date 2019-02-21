@@ -171,7 +171,7 @@ class CallClient {
         }
         let isSilent = call.timeElapsedSinceCallStart >= 1
         let json = self.credentials.toJson()
-        self.sendSignalWith(json: json, signalType: .startCall, call: call, isSilent: !isSilent)
+        self.sendSignalWith(json: json, signalType: .startCall, call: call, isSilent: isSilent)
         HippoDelay(2) {
             self.startSendingStartCallUntilItExpires(signal: signal, call: call)
         }
